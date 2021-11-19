@@ -5,7 +5,6 @@ def shell_sort(numbers: List[int])-> List[int]:
     gap = len_numbers // 2
 
     while gap > 0 :
-        print('gap={},'.format(gap))
         for i in range(gap,len_numbers):
             temp = numbers[i]
             j = i
